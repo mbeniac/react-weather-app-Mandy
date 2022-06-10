@@ -9,6 +9,22 @@ export default function Weather() {
         <li>Wednesday 9:00pm</li>
         <li>Mostly Cloudy</li>
       </ul>
+      <div className="row">
+        <div className="col-6">
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            alt="Mostly Cloudy"
+          />
+          6℃
+        </div>
+        <div className="col-6">
+          <ul>
+            <li>Precipitation: 15%</li>
+            <li>Humidity: 72%</li>
+            <li>Wind: 13 km/h</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
