@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/mbeniac/react-weather-app-Mandy"
             target="_block"
+            rel="noopener noreferrer"
           >
             {" "}
             open-sourced on GitHub{" "}
