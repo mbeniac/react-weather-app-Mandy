@@ -21,15 +21,17 @@ export default function WeatherForecast(props) {
     return (
       <div className="WeatherForecast">
         <div className="row">
-          {forecast.map(function 
-          (dailyForecast, index) {
+          {forecast.map(function (dailyForecast, index) {
             if (index < 5) {
               return (
                 <div className="col" key={index}>
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
-            
-        
+              );
+            }
+          })}
+        </div>
+      </div>
     );
   } else {
     let apiKey = "c3be0ab72af9c5b189f134b093f111bc";
@@ -40,4 +42,5 @@ export default function WeatherForecast(props) {
     axios.get(apiUrl).then(handleResponse);
 
     return null;
-  });}
+  }
+}
