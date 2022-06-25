@@ -1,5 +1,5 @@
 .WeatherForecastDay .col {
-  flex: 0 1;
+  flex: 1 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
