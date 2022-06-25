@@ -1,7 +1,13 @@
+.WeatherForecastDay .col {
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .WeatherForecast {
   text-align: center;
 }
-
 WeatherForecast-temperatures-min {
   opacity: 0.8;
   margin-left: 5px;

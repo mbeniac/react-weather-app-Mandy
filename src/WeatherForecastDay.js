@@ -29,11 +29,7 @@ export default function WeatherForecastDay(props) {
         <div className="clear-fix">
           <div className="row">
             <div className="col">
-              <WeatherIcon
-                code={props.data.weather[0].icon}
-                size={32}
-                margin-left={5}
-              />
+              <WeatherIcon code={props.data.weather[0].icon} size={32} />
 
               <div className="WeatherForecast-temperatures">
                 <span className="WeatherForecast-temperatures-max">
